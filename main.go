@@ -52,7 +52,6 @@ func resize(src string, w int, h int) (string, error) {
 	if err != nil {
 		return "", err
 	}
-  log.Println(f.Name())
 
   err = f.Sync()
 	if err != nil {
