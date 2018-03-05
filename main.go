@@ -164,7 +164,6 @@ func handleResize(bucket string, region string) func(c *gin.Context) {
 		}
 
 		c.JSON(http.StatusOK, gin.H{"url": url})
-		return
 	}
 }
 
