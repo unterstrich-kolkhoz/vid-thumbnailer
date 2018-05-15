@@ -18,7 +18,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/gin-gonic/gin"
-	"github.com/hellerve/vid-thumbnailer/config"
+	"github.com/unterstrich-kolkhoz/vid-thumbnailer/config"
 	"github.com/satori/go.uuid"
 )
 
